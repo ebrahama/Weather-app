@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap');
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Aleo', serif;
+     background-image: url('./icon/john-towner-JgOeRuGD_Y4-unsplash\ \(1\).jpg ');}
+.conta{
+    background: rgba(0, 0, 0, 0.342);
+    color:whitesmoke;
+    text-align: center;
+    margin: 15vh auto;
+    padding: 30px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);}
+.serr{
+    display: flex;
+    justify-content: center;}
+#ser{
+    background: rgba(0, 0, 0, 0.342);
+    border: 1px solid rgb(0, 0, 0);
+    color:white;
+    font-size: 15px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+#serbtn{
+    background: rgba(48, 48, 48, 0.466);
+    border: 1px solid black;
+    padding: 8px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;}
