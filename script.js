@@ -7,6 +7,7 @@ const temp = document.getElementById("temp") ;
 const win = document.getElementById("win") ;
 const des = document.getElementById("des") ;
 
+const cle = document.getElementById("cle")
 
 serbtn.addEventListener("click",()=> {
 
@@ -34,3 +35,16 @@ serbtn.addEventListener("click",()=> {
 
     }
 
+    cle.addEventListener("click",()=> {
+
+        city.textContent = ""
+       
+        temp.textContent = ""
+       
+        des.textContent = ""
+       
+        win.textContent =""
+       
+        ser.value = ""
+    
+    })
